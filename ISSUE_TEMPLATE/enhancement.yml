@@ -1,0 +1,27 @@
+name: Suggest an Enhancement
+labels: enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do YOUR BEST to fill out the issue checklist bellow.
+        Whenever in doubt, skip over the respective item.
+
+  - type: textarea
+    attributes:
+      label: What does the enhancement look like, and what's its purpose?
+    # validations:
+    #   required: true
+
+  - type: textarea
+    attributes:
+      label: What alternatives are there?
+    # validations:
+    #   required: true
+
+  - type: textarea
+    attributes:
+      label: Add anything else that is related and can be relevant. Go wild!
+    # validations:
+    #   required: true

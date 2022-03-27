@@ -1,6 +1,7 @@
 # git (and Github) Pull Requests
 
-**NOTE** Make sure that `make check` passes and maybe `make all test` as well,
+**NOTE** Make sure that checks (e.g. `make check`) passes
+and maybe tests (e.g. `make all test`) pass as well,
 before opening a Pull Request.
 
 Once you are done with your feature branch and/or you would like to request feedback
