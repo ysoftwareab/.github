@@ -15,18 +15,18 @@ body:
       options:
         - label: I opened a new shell.
           # required: true
-        - label: I ran `make bootstrap`.
+        - label: "I ran: make bootstrap"
           # required: true
-        - label: I ran `make nuke; make`.
+        - label: "I ran: make nuke all"
           # required: true
-        - label: I ran `make doctor` and encounter no warnings.
+        - label: "I ran: make doctor"
           # required: true
 
   - type: textarea
     attributes:
       render: shell
       label: What does your system and relevant software look like?
-      description: Include all command output from `make doctor`.
+      placeholder: Include all command output from `make doctor`.
     # validations:
     #   required: true
 
@@ -39,7 +39,7 @@ body:
   - type: textarea
     attributes:
       label: What happened?
-      description: Include all command output.
+      placeholder: Include all command output.
     # validations:
     #   required: true
 
